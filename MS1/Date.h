@@ -16,7 +16,15 @@
 #define SICT_DATE_H__
 namespace sict{
 
-
+   class Date {
+   private:
+      
+      int value()const;
+ 
+   public:
+ 
+      int mdays()const;
+   };
 
 
 
