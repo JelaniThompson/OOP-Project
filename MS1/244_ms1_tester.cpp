@@ -29,7 +29,7 @@ int main(){
   int ret = 0;
   bool ok = true;
   if (ok){
-    cout << "Checking defined values, POS.h: " << endl;
+    cout << "Checking defined values, general.h: " << endl;
   }
   if (ok && MIN_YEAR != 2000){
     cout << "MIN_YEAR must be 2000" << endl;
