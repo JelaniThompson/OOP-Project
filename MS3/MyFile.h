@@ -11,11 +11,11 @@
 // -----------------------------------------------------------
 // Name               Date                 Reason
 /////////////////////////////////////////////////////////////////
-#ifndef SICT_STREAMABLE_H__
-#define SICT_STREAMABLE_H__
+#ifndef SICT_MYFILE_H__
+#define SICT_MYFILE_H__
 #include "Streamable.h"
 #include "Streamable.h"
-#include "Streamable.h" // Streamable.h is inluded three times on purpose.
+#include "Streamable.h" // Streamable.h is included three times on purpose.
 namespace sict{
   class MyFile : public Streamable {
     char fname_[256];
