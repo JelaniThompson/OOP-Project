@@ -1,5 +1,5 @@
 // Final Project Milestone 3
-// Version 1.0
+// Version 1.1
 // Date	2017-07-10
 // Author	Fardad Soleimanloo
 //
@@ -10,6 +10,7 @@
 // Revision History
 // -----------------------------------------------------------
 // Name               Date                 Reason
+// Fardad             2017-07-11           corrected compile safegaurds
 /////////////////////////////////////////////////////////////////
 #ifndef SICT_MYFILE_H__
 #define SICT_MYFILE_H__
