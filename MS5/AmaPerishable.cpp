@@ -1,0 +1,1 @@
+// AmaPersishable.cpp
