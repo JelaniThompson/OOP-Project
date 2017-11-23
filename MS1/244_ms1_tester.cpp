@@ -72,18 +72,18 @@ int main() {
   }
 
   if (ok) {
-    cout << "Testing Date() constructor and operator<< overload; " << endl;
-    Date Current;
+    cout << "Testing the Date() constructor and the operator << overload; " << endl;
+    Date Empty, Temp(-1, 1, 1);
     cout << "Are these two dates the same? (regardless of format)" << endl
-      << "1- 0/00/00" << endl
-      << "2- " << Current << endl
+      << "1- " << Empty << endl
+      << "2- " << Temp << endl
       << "(y)es/(n)o: ";
 
     if (!yes()) {
-      cout << "Either the Date() constructor or operator<< is not implemented correctly." << endl;
+      cout << "Either the Date() constructor or the operator << overload is not implemented correctly." << endl;
       ok = false;
     }
-    else{
+    else {
       cout << "Passed!" << endl;
     }
   }
@@ -112,7 +112,7 @@ int main() {
     if (A == B) {
       cout << "passed!" << endl;
     }
-    else{
+    else {
       cout << A << " is equal to " << B << " but operator== returns otherwise!" << endl;
       ok = false;
     }
@@ -125,7 +125,7 @@ int main() {
     if (A >= B) {
       cout << "passed!" << endl;
     }
-    else{
+    else {
       cout << A << " is equal to " << B << endl << "but operator>= returns otherwise!" << endl;
       ok = false;
     }
@@ -297,7 +297,7 @@ int main() {
   if (ok) {
     cout << "You passed all the tests!" << endl;
   }
-  else{
+  else {
     cout << "You did not pass all the tests, keep working on your project!" << endl;
     ret = 1;
   }
